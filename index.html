@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Tuncay — Kişisel Portföy</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top">tuncxay</a>
+      <nav class="nav" aria-label="Ana menü">
+        <a href="#about" data-i18n="nav_about">Hakkımda</a>
+        <a href="#projects" data-i18n="nav_projects">Projeler</a>
+        <a href="#skills" data-i18n="nav_skills">Yetenekler</a>
+        <a href="#contact" data-i18n="nav_contact">İletişim</a>
+      </nav>
+      <div class="controls">
+        <div class="lang-switch" role="group" aria-label="Dil seçimi">
+          <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" data-lang="fi" aria-pressed="false">FI</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Tema değiştir">&#9680;</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <section id="about" class="section hero">
+      <p id="heroKicker" class="kicker"></p>
+      <h1 id="heroTitle" class="headline"></h1>
+      <p id="heroBio" class="lead"></p>
+      <div id="heroMeta" class="meta-row"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2 data-i18n="sec_projects">Projeler</h2>
+        <div id="projectFilters" class="filter-row"></div>
+      </div>
+      <div id="projectList" class="project-list"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2 data-i18n="sec_skills">Yetenekler</h2>
+      </div>
+      <div id="skillsGrid" class="skills-grid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2 data-i18n="sec_contact">İletişim</h2>
+      </div>
+      <p id="contactNote" class="contact-note"></p>
+      <div id="socialLinks" class="social-row"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span id="footerCopy"></span>
+      <span id="footerLoc"></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

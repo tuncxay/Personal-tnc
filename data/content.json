@@ -1,0 +1,125 @@
+{
+  "locales": {
+    "tr": {
+      "pageTitle": "Tuncay — Kişisel Portföy",
+      "ui": {
+        "nav_about": "Hakkımda",
+        "nav_projects": "Projeler",
+        "nav_skills": "Yetenekler",
+        "nav_contact": "İletişim",
+        "sec_projects": "Projeler",
+        "sec_skills": "Yetenekler",
+        "sec_contact": "İletişim",
+        "filter_all": "Tümü",
+        "link_code": "Kaynak Kod",
+        "link_live": "Canlı Önizleme"
+      },
+      "hero": {
+        "kicker": "Kişisel Profil & Çalışmalar",
+        "headline": "Tuncay",
+        "bio": "Web arayüzleri, yapılandırılmış dil öğrenme araçları ve hafif otomasyon sistemleri üzerine çalışan bağımsız geliştirici.",
+        "meta": ["Lahti, Finlandiya", "Web & Otomasyon", "TR · FI · EN"]
+      },
+      "skills": [
+        { "category": "Web Geliştirme", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsive Tasarım", "JSON Veri Modelleme"] },
+        { "category": "Sistem & Araçlar", "items": ["Git & GitHub", "Linux CLI", "Bash Betikleri", "Python"] },
+        { "category": "Diller", "items": ["Türkçe (Anadil)", "Fince", "İngilizce"] }
+      ],
+      "contact": {
+        "note": "Projeler, iş birlikleri veya geri bildirimler için aşağıdaki bağlantılardan ulaşabilirsiniz."
+      },
+      "footer": {
+        "copy": "© 2026 Tuncay",
+        "location": "Lahti, Finlandiya"
+      }
+    },
+    "fi": {
+      "pageTitle": "Tuncay — Henkilökohtainen portfolio",
+      "ui": {
+        "nav_about": "Tietoa",
+        "nav_projects": "Projektit",
+        "nav_skills": "Osaaminen",
+        "nav_contact": "Yhteys",
+        "sec_projects": "Projektit",
+        "sec_skills": "Osaaminen",
+        "sec_contact": "Yhteys",
+        "filter_all": "Kaikki",
+        "link_code": "Lähdekoodi",
+        "link_live": "Esikatselu"
+      },
+      "hero": {
+        "kicker": "Profiili & Projektit",
+        "headline": "Tuncay",
+        "bio": "Itsenäinen kehittäjä, joka rakentaa selkeitä verkkokäyttöliittymiä, kielenoppimistyökaluja ja kevyitä automaatioratkaisuja.",
+        "meta": ["Lahti, Suomi", "Web & Automaatio", "TR · FI · EN"]
+      },
+      "skills": [
+        { "category": "Verkkokehitys", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsiivinen suunnittelu", "JSON"] },
+        { "category": "Järjestelmät & Työkalut", "items": ["Git & GitHub", "Linux CLI", "Bash", "Python"] },
+        { "category": "Kielet", "items": ["Turkki (äidinkieli)", "Suomi", "Englanti"] }
+      ],
+      "contact": {
+        "note": "Ota yhteyttä projekteihin tai yhteistyöhön liittyen alla olevien kanavien kautta."
+      },
+      "footer": {
+        "copy": "© 2026 Tuncay",
+        "location": "Lahti, Suomi"
+      }
+    },
+    "en": {
+      "pageTitle": "Tuncay — Personal Portfolio",
+      "ui": {
+        "nav_about": "About",
+        "nav_projects": "Projects",
+        "nav_skills": "Skills",
+        "nav_contact": "Contact",
+        "sec_projects": "Projects",
+        "sec_skills": "Skills",
+        "sec_contact": "Contact",
+        "filter_all": "All",
+        "link_code": "Source",
+        "link_live": "Live Demo"
+      },
+      "hero": {
+        "kicker": "Profile & Selected Work",
+        "headline": "Tuncay",
+        "bio": "Independent developer building clean web interfaces, structured language-learning tools, and lightweight automation workflows.",
+        "meta": ["Lahti, Finland", "Web & Automation", "TR · FI · EN"]
+      },
+      "skills": [
+        { "category": "Web Development", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsive Design", "JSON Architecture"] },
+        { "category": "Systems & Tooling", "items": ["Git & GitHub", "Linux CLI", "Bash Scripting", "Python"] },
+        { "category": "Languages", "items": ["Turkish (Native)", "Finnish", "English"] }
+      ],
+      "contact": {
+        "note": "Feel free to reach out for collaborations, projects, or inquiries through the links below."
+      },
+      "footer": {
+        "copy": "© 2026 Tuncay",
+        "location": "Lahti, Finland"
+      }
+    }
+  },
+  "projects": [
+    {
+      "title": {
+        "tr": "Örnek Web Uygulaması",
+        "fi": "Esimerkkisovellus",
+        "en": "Sample Web Application"
+      },
+      "desc": {
+        "tr": "JSON tabanlı içerik yönetimi ve çok dilli arayüz mimarisiyle geliştirilen modüler web projesi.",
+        "fi": "JSON-pohjaisella sisällönhallinnalla ja monikielisellä käyttöliittymällä toteutettu verkkoprojekti.",
+        "en": "Modular web project built with JSON-driven content management and a multilingual interface."
+      },
+      "tags": ["HTML/CSS", "JavaScript", "JSON"],
+      "repo": "https://github.com/tuncxay",
+      "live": ""
+    }
+  ],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/tuncxay" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com" },
+    { "label": "E-posta", "url": "mailto:contact@example.com" }
+  ]
+}
