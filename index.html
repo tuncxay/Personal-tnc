@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="light dark" />
-  <title>Tuncay — Kişisel Portföy</title>
+  <title>Tuncay — Kişisel Portföy & Bokuno Collection</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="#top">tuncxay</a>
+      <a id="brandName" class="brand" href="#top">tuncxay</a>
       <nav class="nav" aria-label="Ana menü">
         <a href="#about" data-i18n="nav_about">Hakkımda</a>
         <a href="#projects" data-i18n="nav_projects">Projeler</a>
@@ -23,13 +23,16 @@
           <button type="button" data-lang="fi" aria-pressed="false">FI</button>
           <button type="button" data-lang="en" aria-pressed="false">EN</button>
         </div>
-        <button id="themeToggle" class="icon-btn" type="button" aria-label="Tema değiştir">&#9680;</button>
+        <button id="openStudio" class="studio-trigger" type="button" data-i18n="btn_customize">Özelleştir</button>
       </div>
     </div>
   </header>
 
   <main id="top" class="container">
     <section id="about" class="section hero">
+      <div id="heroMediaWrap" class="hero-media" hidden>
+        <img id="heroMediaImg" alt="Profil veya proje görseli" />
+      </div>
       <p id="heroKicker" class="kicker"></p>
       <h1 id="heroTitle" class="headline"></h1>
       <p id="heroBio" class="lead"></p>
@@ -55,8 +58,19 @@
       <div class="section-head">
         <h2 data-i18n="sec_contact">İletişim</h2>
       </div>
-      <p id="contactNote" class="contact-note"></p>
-      <div id="socialLinks" class="social-row"></div>
+      <div class="contact-layout">
+        <div>
+          <p id="contactNote" class="contact-note"></p>
+          <div id="businessInfo" class="business-info"></div>
+          <div id="socialLinks" class="social-row"></div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <input id="cfName" type="text" required placeholder="Adınız / Nimi / Name" />
+          <input id="cfEmail" type="email" required placeholder="E-posta / Sähköposti / Email" />
+          <textarea id="cfMsg" rows="3" required placeholder="Mesajınız / Viesti / Message"></textarea>
+          <button type="submit" class="primary-btn" data-i18n="btn_send">Mesaj Gönder</button>
+        </form>
+      </div>
     </section>
   </main>
 
@@ -67,6 +81,67 @@
     </div>
   </footer>
 
+  <aside id="studioDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <strong data-i18n="studio_title">Site Özelleştirme Stüdyosu</strong>
+      <button id="closeStudio" type="button" class="icon-btn" aria-label="Kapat">&times;</button>
+    </div>
+    <div class="drawer-body">
+      <div class="ctrl-group">
+        <label>Renk & Tema</label>
+        <div class="chip-row" id="paletteChoices">
+          <button type="button" data-palette="light">Açık</button>
+          <button type="button" data-palette="dark">Koyu</button>
+          <button type="button" data-palette="paper">Kâğıt</button>
+          <button type="button" data-palette="nordic">Kuzey</button>
+        </div>
+      </div>
+      <div class="ctrl-group">
+        <label>Tipografi & Yazı Tipi</label>
+        <div class="chip-row" id="fontChoices">
+          <button type="button" data-font="editorial">Editoryal Serif</button>
+          <button type="button" data-font="modern">Modern Sans</button>
+          <button type="button" data-font="mono">Teknik Mono</button>
+        </div>
+      </div>
+      <div class="ctrl-group">
+        <label>Düzen & Düğme Stili</label>
+        <div class="chip-row" id="layoutChoices">
+          <button type="button" data-layout="list">Liste Düzeni</button>
+          <button type="button" data-layout="grid">Kart Izgarası</button>
+        </div>
+        <div class="chip-row" id="btnChoices" style="margin-top:.4rem">
+          <button type="button" data-btn="pill">Yuvarlak</button>
+          <button type="button" data-btn="soft">Yumuşak</button>
+          <button type="button" data-btn="sharp">Keskin</button>
+        </div>
+      </div>
+      <div class="ctrl-group">
+        <label>Görsel & Medya Ekle</label>
+        <input id="edMediaUrl" type="url" placeholder="Görsel URL (https://...)" />
+        <input id="edMediaFile" type="file" accept="image/*" style="margin-top:.4rem" />
+      </div>
+      <div class="ctrl-group">
+        <label>İşletme & İçerik Düzenle</label>
+        <input id="edBrand" type="text" placeholder="Marka / Kullanıcı adı" />
+        <input id="edTitle" type="text" placeholder="Ana başlık" style="margin-top:.4rem" />
+        <textarea id="edBio" rows="3" placeholder="Hakkımda metni" style="margin-top:.4rem"></textarea>
+        <input id="edLocation" type="text" placeholder="Konum / Adres" style="margin-top:.4rem" />
+        <input id="edEmail" type="email" placeholder="E-posta" style="margin-top:.4rem" />
+      </div>
+      <div class="ctrl-group">
+        <label>Sosyal Medya Bağlantıları</label>
+        <input id="edGithub" type="url" placeholder="GitHub URL" />
+        <input id="edLinkedin" type="url" placeholder="LinkedIn URL" style="margin-top:.4rem" />
+        <input id="edWebsite" type="url" placeholder="Web / Uygulama URL" style="margin-top:.4rem" />
+      </div>
+      <div class="drawer-actions">
+        <button id="saveStudio" type="button" class="primary-btn">Değişiklikleri Uygula</button>
+        <button id="exportJson" type="button" class="secondary-btn">content.json İndir</button>
+        <button id="resetStudio" type="button" class="secondary-btn">Varsayılana Dön</button>
+      </div>
+    </div>
+  </aside>
   <script src="assets/app.js"></script>
 </body>
 </html>

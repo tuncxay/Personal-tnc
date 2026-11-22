@@ -1,120 +1,71 @@
 {
+  "brand": "tuncxay",
+  "email": "contact@example.com",
   "locales": {
     "tr": {
-      "pageTitle": "Tuncay — Kişisel Portföy",
-      "ui": {
-        "nav_about": "Hakkımda",
-        "nav_projects": "Projeler",
-        "nav_skills": "Yetenekler",
-        "nav_contact": "İletişim",
-        "sec_projects": "Projeler",
-        "sec_skills": "Yetenekler",
-        "sec_contact": "İletişim",
-        "filter_all": "Tümü",
-        "link_code": "Kaynak Kod",
-        "link_live": "Canlı Önizleme"
-      },
-      "hero": {
-        "kicker": "Kişisel Profil & Çalışmalar",
-        "headline": "Tuncay",
-        "bio": "Web arayüzleri, yapılandırılmış dil öğrenme araçları ve hafif otomasyon sistemleri üzerine çalışan bağımsız geliştirici.",
-        "meta": ["Lahti, Finlandiya", "Web & Otomasyon", "TR · FI · EN"]
-      },
+      "pageTitle": "Tuncay — Kişisel Portföy & Bokuno Collection",
+      "ui": { "nav_about": "Hakkımda", "nav_projects": "Projeler", "nav_skills": "Yetenekler", "nav_contact": "İletişim", "btn_customize": "Özelleştir", "btn_send": "Mesaj Gönder", "studio_title": "Site Özelleştirme Stüdyosu", "sec_projects": "Projeler", "sec_skills": "Yetenekler", "sec_contact": "İletişim", "filter_all": "Tümü", "features_label": "Temel Özellikler & Kullanım Senaryoları", "link_code": "Kaynak Kod", "link_live": "Canlı Önizleme" },
+      "hero": { "kicker": "Kişisel Veritabanı & Web Tasarımı", "headline": "Tuncay", "bio": "Notlar, koleksiyonlar ve günlük kayıtlar için kart tabanlı esnek kişisel veritabanı deneyimleri ve sade web arayüzleri tasarlıyorum.", "meta": ["Lahti, Finlandiya", "Kart Tabanlı Veritabanı", "TR · FI · EN"] },
       "skills": [
-        { "category": "Web Geliştirme", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsive Tasarım", "JSON Veri Modelleme"] },
-        { "category": "Sistem & Araçlar", "items": ["Git & GitHub", "Linux CLI", "Bash Betikleri", "Python"] },
+        { "category": "Ürün & Arayüz", "items": ["Kart Tabanlı Tasarım", "Özel Alan Modelleme", "Veri Görselleştirme", "Radar & Eğilim Grafikleri"] },
+        { "category": "Web & Sistem", "items": ["HTML5 / CSS3", "JavaScript (ES6+)", "JSON Yapıları", "Git & Linux"] },
         { "category": "Diller", "items": ["Türkçe (Anadil)", "Fince", "İngilizce"] }
       ],
-      "contact": {
-        "note": "Projeler, iş birlikleri veya geri bildirimler için aşağıdaki bağlantılardan ulaşabilirsiniz."
-      },
-      "footer": {
-        "copy": "© 2026 Tuncay",
-        "location": "Lahti, Finlandiya"
-      }
+      "contact": { "note": "Bokuno Collection, yeni projeler veya iş birlikleri için formu doldurabilir ya da aşağıdaki kanallardan ulaşabilirsiniz." },
+      "footer": { "copy": "© 2026 Tuncay", "location": "Lahti, Finlandiya" }
     },
     "fi": {
-      "pageTitle": "Tuncay — Henkilökohtainen portfolio",
-      "ui": {
-        "nav_about": "Tietoa",
-        "nav_projects": "Projektit",
-        "nav_skills": "Osaaminen",
-        "nav_contact": "Yhteys",
-        "sec_projects": "Projektit",
-        "sec_skills": "Osaaminen",
-        "sec_contact": "Yhteys",
-        "filter_all": "Kaikki",
-        "link_code": "Lähdekoodi",
-        "link_live": "Esikatselu"
-      },
-      "hero": {
-        "kicker": "Profiili & Projektit",
-        "headline": "Tuncay",
-        "bio": "Itsenäinen kehittäjä, joka rakentaa selkeitä verkkokäyttöliittymiä, kielenoppimistyökaluja ja kevyitä automaatioratkaisuja.",
-        "meta": ["Lahti, Suomi", "Web & Automaatio", "TR · FI · EN"]
-      },
+      "pageTitle": "Tuncay — Henkilökohtainen portfolio & Bokuno Collection",
+      "ui": { "nav_about": "Tietoa", "nav_projects": "Projektit", "nav_skills": "Osaaminen", "nav_contact": "Yhteys", "btn_customize": "Mukauta", "btn_send": "Lähetä viesti", "studio_title": "Sivuston mukautusstudio", "sec_projects": "Projektit", "sec_skills": "Osaaminen", "sec_contact": "Yhteys", "filter_all": "Kaikki", "features_label": "Keskeiset ominaisuudet & käyttökohteet", "link_code": "Lähdekoodi", "link_live": "Esikatselu" },
+      "hero": { "kicker": "Henkilökohtaiset tietokannat & verkkosuunnittelu", "headline": "Tuncay", "bio": "Suunnittelen mukautettavia korttipohjaisia tietokantasovelluksia muistiinpanoille, kokoelmille ja päivittäisille merkinnöille.", "meta": ["Lahti, Suomi", "Korttipohjaiset tietokannat", "TR · FI · EN"] },
       "skills": [
-        { "category": "Verkkokehitys", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsiivinen suunnittelu", "JSON"] },
-        { "category": "Järjestelmät & Työkalut", "items": ["Git & GitHub", "Linux CLI", "Bash", "Python"] },
+        { "category": "Tuote & Käyttöliittymä", "items": ["Korttipohjainen suunnittelu", "Mukautetut kentät", "Tiedon visualisointi", "Tutkakaaviot"] },
+        { "category": "Web & Järjestelmät", "items": ["HTML5 / CSS3", "JavaScript (ES6+)", "JSON-tietomallit", "Git & Linux"] },
         { "category": "Kielet", "items": ["Turkki (äidinkieli)", "Suomi", "Englanti"] }
       ],
-      "contact": {
-        "note": "Ota yhteyttä projekteihin tai yhteistyöhön liittyen alla olevien kanavien kautta."
-      },
-      "footer": {
-        "copy": "© 2026 Tuncay",
-        "location": "Lahti, Suomi"
-      }
+      "contact": { "note": "Ota yhteyttä Bokuno Collectioniin tai yhteistyöhön liittyen lomakkeella tai alla olevien linkkien kautta." },
+      "footer": { "copy": "© 2026 Tuncay", "location": "Lahti, Suomi" }
     },
     "en": {
-      "pageTitle": "Tuncay — Personal Portfolio",
-      "ui": {
-        "nav_about": "About",
-        "nav_projects": "Projects",
-        "nav_skills": "Skills",
-        "nav_contact": "Contact",
-        "sec_projects": "Projects",
-        "sec_skills": "Skills",
-        "sec_contact": "Contact",
-        "filter_all": "All",
-        "link_code": "Source",
-        "link_live": "Live Demo"
-      },
-      "hero": {
-        "kicker": "Profile & Selected Work",
-        "headline": "Tuncay",
-        "bio": "Independent developer building clean web interfaces, structured language-learning tools, and lightweight automation workflows.",
-        "meta": ["Lahti, Finland", "Web & Automation", "TR · FI · EN"]
-      },
+      "pageTitle": "Tuncay — Personal Portfolio & Bokuno Collection",
+      "ui": { "nav_about": "About", "nav_projects": "Projects", "nav_skills": "Skills", "nav_contact": "Contact", "btn_customize": "Customize", "btn_send": "Send Message", "studio_title": "Site Customization Studio", "sec_projects": "Projects", "sec_skills": "Skills", "sec_contact": "Contact", "filter_all": "All", "features_label": "Key Features & Use Cases", "link_code": "Source", "link_live": "Live Demo" },
+      "hero": { "kicker": "Personal Databases & Web Design", "headline": "Tuncay", "bio": "Designing flexible, card-based personal database applications and minimal editorial web interfaces for notes, collections, and daily logs.", "meta": ["Lahti, Finland", "Card-Based Databases", "TR · FI · EN"] },
       "skills": [
-        { "category": "Web Development", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "Responsive Design", "JSON Architecture"] },
-        { "category": "Systems & Tooling", "items": ["Git & GitHub", "Linux CLI", "Bash Scripting", "Python"] },
+        { "category": "Product & UI", "items": ["Card-Based Systems", "Custom Field Modeling", "Data Visualization", "Radar & Trend Charts"] },
+        { "category": "Web & Systems", "items": ["HTML5 / CSS3", "JavaScript (ES6+)", "JSON Schemas", "Git & Linux"] },
         { "category": "Languages", "items": ["Turkish (Native)", "Finnish", "English"] }
       ],
-      "contact": {
-        "note": "Feel free to reach out for collaborations, projects, or inquiries through the links below."
-      },
-      "footer": {
-        "copy": "© 2026 Tuncay",
-        "location": "Lahti, Finland"
-      }
+      "contact": { "note": "Reach out regarding Bokuno Collection, new projects, or collaborations using the form or links below." },
+      "footer": { "copy": "© 2026 Tuncay", "location": "Lahti, Finland" }
     }
   },
   "projects": [
     {
-      "title": {
-        "tr": "Örnek Web Uygulaması",
-        "fi": "Esimerkkisovellus",
-        "en": "Sample Web Application"
+      "title": { "tr": "Bokuno Collection — Özelleştirilebilir Kişisel Veritabanı", "fi": "Bokuno Collection — Mukautettava henkilökohtainen tietokanta", "en": "Bokuno Collection — Customizable Personal Database" },
+      "desc": { "tr": "Kitaplar, filmler, spor ayakkabılar, kafeler ve hobiler için kendi alanlarını tasarlayabileceğin; karmaşık veritabanlarından daha kullanışlı, sıradan not uygulamalarından çok daha görsel kart tabanlı veritabanı uygulaması.", "fi": "Joustava korttipohjainen tietokantasovellus kirjoille, elokuville, kahvilakäynneille ja harrastuksille. Suunnittele omat kenttäsi ja muuta arkesi persoonalliseksi kokoelmaksi.", "en": "A flexible card-based personal database app for books, movies, sneakers, café visits, and hobbies. Design your own fields and turn daily life into a visual personal collection." },
+      "features": {
+        "tr": [
+          "Özel Alan Tasarımı: Metin, sayı, tarih, görsel, 5 yıldızlı değerlendirme, radar grafik ve seçenek listelerini özgürce birleştir.",
+          "Somut Kullanım Örnekleri: “Kafe gezileri” (isim, fotoğraf, kahve yoğunluk grafiği, kalabalık seviyesi) ve “Spor ayakkabılar” (marka, fiyat, malzeme, favori puanı).",
+          "Çoklu Görünüm Modları: Kart ve kutucuk görünümü, tarihe göre takvim görünümü ve değişimleri gösteren grafik görünümü.",
+          "Hızlı Arama & Hazır Şablonlar: Anahtar kelime araması, yüksek puan filtreleme ve okuma kayıtları, sağlık takibi, gezi günlükleri için hazır şablonlar."
+        ],
+        "fi": [
+          "Mukautetut kentät: Yhdistä vapaasti tekstiä, numeroita, päivämääriä, kuvia, 5 tähden arvioita, tutkakaavioita ja valintalistoja.",
+          "Käyttöesimerkit: ”Kahvilakäynnit” (nimi, kuva, kahvin vahvuuskaavio, ruuhkataso) ja ”Lenkkarit” (merkki, hinta, materiaali, suosikkipisteet).",
+          "Monipuoliset näkymät: Kortti- ja ruudukkonäkymä, kalenterinäkymä päivämäärän mukaan sekä kaavionäkymä trendeille.",
+          "Nopea haku & valmiit mallit: Suodatus, lajittelu sekä valmiit mallipohjat lukupäiväkirjoille, terveyden seurantaan ja matkalokeihin."
+        ],
+        "en": [
+          "Custom Field Builder: Freely combine text, numbers, dates, images, 5-star ratings, radar charts, and option lists.",
+          "Real-World Templates: “Café visits” (name, photo, coffee intensity radar chart, crowd level) and “Sneakers” (brand, price, material, favorite score).",
+          "Multiple View Modes: Card & grid view, calendar view by date, and chart view to visualize trends.",
+          "Fast Search & Ready Templates: Keyword search, rating filters, plus starter templates for reading logs, health tracking, and travel journals."
+        ]
       },
-      "desc": {
-        "tr": "JSON tabanlı içerik yönetimi ve çok dilli arayüz mimarisiyle geliştirilen modüler web projesi.",
-        "fi": "JSON-pohjaisella sisällönhallinnalla ja monikielisellä käyttöliittymällä toteutettu verkkoprojekti.",
-        "en": "Modular web project built with JSON-driven content management and a multilingual interface."
-      },
-      "tags": ["HTML/CSS", "JavaScript", "JSON"],
+      "tags": ["Kart Veritabanı", "Koleksiyon", "Radar Grafik", "UI/UX"],
       "repo": "https://github.com/tuncxay",
-      "live": ""
+      "live": "https://tuncxay.github.io/Personal-tnc/"
     }
   ],
   "socials": [
